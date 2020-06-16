@@ -11,6 +11,8 @@
 	<body>
 		<h1>Lista de Livros</h1>
 		
+		<div>${success}</div>
+		
 		<table>
 		  <tr>
 		    <th>Título</th>
