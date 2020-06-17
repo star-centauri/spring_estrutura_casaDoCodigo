@@ -21,6 +21,7 @@ public class Produto {
 	private String titulo;
 	private String descricao;
 	private int paginas;
+	private String sumarioPath;
 	
 	@DateTimeFormat
 	private Calendar dataLancamento;
@@ -66,6 +67,12 @@ public class Produto {
 		this.dataLancamento = dataLancamento;
 	}
 	
+	public String getSumarioPath() {
+		return sumarioPath;
+	}
+	public void setSumarioPath(String sumarioPath) {
+		this.sumarioPath = sumarioPath;
+	}
 	@Override
 	public String toString() {
 		return "Produto [titulo=" + titulo + ", descricao=" + descricao + ", paginas=" + paginas + "]";
